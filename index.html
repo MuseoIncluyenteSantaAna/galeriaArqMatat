@@ -100,11 +100,12 @@
   <button class="button" onclick="openPopup(19)">EL PULQUE</button>  
   </section>
 
-    <div id="popup" class="section" style="display: none;">
+  <div id="popup" class="section" style="display: none;">
     <h2 id="popup-title"></h2>
     <p id="popup-description"></p>
-    <button class="button" onclick="closePopupUno()">Cerrar</button>
-    </div>
+    <button class="button" id="play-audio-button">Reproducir audio</button>
+    <button class="button" onclick="closePopup()">Cerrar</button>
+  </div>
   
   <div id="myCarousel" class="carousel slide section" data-ride="carousel">
     <!-- Indicators -->
@@ -223,13 +224,6 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-
-  <div id="popup" class="section" style="display: none;">
-    <h2 id="popup-title"></h2>
-    <p id="popup-description"></p>
-    <button class="button" id="play-audio-button">Reproducir audio</button>
-    <button class="button" onclick="closePopup()">Cerrar</button>
-  </div>
   
   <footer>
     <p>&copy; 2023 Museo Comunitario Ta Guil Reiñ de Santiago Matatlán | Todos los derechos reservados</p>
@@ -278,27 +272,6 @@
           title = "TEMAZCALES";
           description = "Hoy como en el pasado prehispánico el temazcal está asociado a ritos de limpieza y purificación del alma al pasar por etapas de crisis de la vida, como el nacimiento de un hijo. Hasta hace muy poco las mujeres zapotecas solían entrar al temazcal un tiempo después de dar a luz.";
           audioFile = "audio7.mp3";
-          break;
-        case 8:
-          title = "PIEZAS RECUPERADAS DE LA ZONA ARQUEOLÓGICA";
-          break;
-        case 9:
-          title = "PIEZAS RECUPERADAS DE LA ZONA ARQUEOLÓGICA";
-          break;
-       case 10:
-          title = "PIEZAS RECUPERADAS DE LA ZONA ARQUEOLÓGICA";
-          break;
-       case 11:
-          title = "PIEZAS RECUPERADAS DE LA ZONA ARQUEOLÓGICA";
-          break;
-       case 12:
-          title = "PIEZAS RECUPERADAS DE LA ZONA ARQUEOLÓGICA";
-          break;
-        case 13:
-          title = "PIEZAS RECUPERADAS DE LA ZONA ARQUEOLÓGICA";
-          break;
-        case 14:
-          title = "PIEZAS RECUPERADAS DE LA ZONA ARQUEOLÓGICA";
           break;
          case 15:
           title = "EL JUEGO DE PELOTA";
