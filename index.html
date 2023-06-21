@@ -94,6 +94,11 @@
   <h2>Bienvenidos a Nuestra Sala de Arqueología</h2>
   <p>El Palmillo: Antiguo sitio arqueológico en Valle de Oaxaca. Casas en laderas, estatus alto en la cima, bajo en la base. Gran tamaño, 1,400 terrazas, hasta 5,000 habitantes. Estructura social: gobernantes de alto estatus con tumbas elaboradas y bienes exóticos. Familias de bajo estatus apoyaban. Temazcales y juego de pelota presentes. Ofrendas variadas, tumbas en diferentes terrazas. Importancia económica de plantas: maguey, nopal, cactus, yuca. Diversidad y abundancia vegetal.</p>
   <button class="button" onclick="openPopup(15)">EL JUEGO DE PELOTA</button>
+  <button class="button" onclick="openPopup(16)">OFRENDAS: URNAS</button>
+  <button class="button" onclick="openPopup(17)">COSTUMBRES FUNERARIAS</button>
+  <button class="button" onclick="openPopup(18)">ELABORACIÓN DE TEXTILES</button>
+  <button class="button" onclick="openPopup(19)">EL PULQUE</button>
+    
   </section>
   
   <div id="myCarousel" class="carousel slide section" data-ride="carousel">
@@ -293,6 +298,22 @@
         case 15:
           title = "EL JUEGO DE PELOTA";
           description = "En Mesoamérica el juego de pelota servía para la negociación de relaciones de poder entre grupos rivales y la ascensión de los gobernantes. Es posible que la construcción de la cancha esté asociada a rituales para legitimar los derechos de los señores de El Palmillo cuando el poder de Monte Albán se estaba fragmentando.";
+          break;
+        case 16:
+          title = "OFRENDAS: URNAS";
+          description = "Urnas zapotecas son objetos rituales que han sido encontrados en contextos funerarios o como ofrendas. Estuvieron en uso entre los zapotecos de los Valles Centrales y partes de la Sierra Norte desde 200 a 850 después de Cristo. En ocasiones fueron rotas o quemadas durante rituales practicadas mucho después del entierro original. Se encuentran en los escombros de las casas de todas las clases sociales y muchas veces en un estado completo adentro de la tumba familiar. Frecuentemente representan figuras humanas vestidas de Cocijo, el principal ente sobrenatural asociado con la lluvia y el trueno.";
+          break;
+        case 17:
+          title = "COSTUMBRES FUNERARIAS";
+          description = "Al morirse es probable que se creyera que los jefes de familia se convirtieron en espíritus que pudieron interceder por los vivos ante los dioses para proporcionarles beneficios en forma de lluvias y cosechas de maíz entre otras cosas. Los habitantes prehispánicos de El Palmillo y del resto del Valle de Oaxaca enterraban sus muertos en su complejo doméstico, en tumbas subterráneas, debajo de los pisos de cuartos y patios y en las paredes. Después de estos entierros, se realizaban ritos afuera de la entrada de las tumbas.";
+          break;
+        case 18:
+          title = "ELABORACIÓN DE TEXTILES";
+          description = "La presencia de muchos instrumentos para la elaboración de textiles en El Palmillo indica que esta labor era fundamental para su economía. En todas las casas del sitio se encontraron malacates para hacer hilo. En varias terrazas se excavaron pequeños cuencos de piedra que servían para apoyar un extremo del uso. Otros objetos usados para elaborar telas son punzones y agujas de hueso. También se hallaron piezas de hueso que podrían haber servido como las partes de un telar de cintura";
+          break;
+        case 19:
+          title = "EL PULQUE";
+          description = "La pareja noble de Señora 10 Venado y Señor 8 Viento comparte pulque en una ceremonia. El pulque era una bebida importante en Mesoamérica, asociada con rituales y peticiones a los dioses. Se encontró una herramienta de hueso en El Palmillo que se usaba como pajilla para beber pulque. Escenas de personas bebiendo pulque con una pajilla aparecen en códices.";
           break;
       }
       $("#popup-title").text(title);
