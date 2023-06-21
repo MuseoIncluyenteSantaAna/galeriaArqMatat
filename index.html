@@ -53,6 +53,27 @@
       float: right;
       margin-right: 50px;
     }
+     .section {
+      padding: 40px;
+      background-color: #333333;
+      text-align: center;
+    }
+    
+    .section:nth-child(even) {
+      background-color: #2a2a2a;
+    }
+    
+    .section h2 {
+      margin-top: 0;
+      font-size: 40px;
+      font-family: 'Didot', sans-serif;
+    }
+    
+    .section p {
+      margin-bottom: 20px;
+      font-size: 15px;
+      font-family: 'Didot', sans-serif;
+    }
 
     footer {
       background-color: #111;
@@ -68,6 +89,11 @@
     <h1>Sala de Arqueología</h1>
     <a class="button" href="https://museomatatlan.netlify.app">Home</a>
   </header>
+
+  <section class="section">
+  <h2>Bienvenidos a Nuestra Sala de Arqueología</h2>
+  <p>El Palmillo: Antiguo sitio arqueológico en Valle de Oaxaca. Casas en laderas, estatus alto en la cima, bajo en la base. Gran tamaño, 1,400 terrazas, hasta 5,000 habitantes. Estructura social: gobernantes de alto estatus con tumbas elaboradas y bienes exóticos. Familias de bajo estatus apoyaban. Temazcales y juego de pelota presentes. Ofrendas variadas, tumbas en diferentes terrazas. Importancia económica de plantas: maguey, nopal, cactus, yuca. Diversidad y abundancia vegetal.</p>
+  </section>
   
   <div id="myCarousel" class="carousel slide section" data-ride="carousel">
     <!-- Indicators -->
@@ -210,74 +236,58 @@
       var title, description, audioFile;
       switch (id) {
         case 1:
-          title = "Imagen 1";
-          description = "Descripción de la imagen 1.";
-          audioFile = "Foto1-Sala1-SAV.mp3";
+          title = "PUNTAS DE PROYECTIL.";
+          description = "Estas puntas de flechas o lanzas se elaboraron desprendiendo lascas de un núcleo de sílex. En el Palmillo, se encuentra una mayor cantidad de ellas en las residencias de bajo estatus.";
+          audioFile = "Audio1.mp3";
           break;
         case 2:
-          title = "Imagen 2";
-          description = "Descripción de la imagen 2.";
-          audioFile = "Foto2-Sala1-SAV.mp3";
+          title = "PUNZONES Y SANGRADERAS";
+          description = "Probablemente estas piezas se utilizaban en rituales en donde individuos se sacrificaban y ofrecían su sangre a las deidades. En Mesoamérica prehispánica, la sangre se consideraba una importante fuerza vital.";
+          audioFile = "Audio2.mp3";
           break;
         case 3:
-          title = "Imagen 3";
-          description = "Descripción de la imagen 3.";
-          audioFile = "Foto3-Sala1-SAV.mp3";
+          title = "ADORNOS DE CONCHA DE MAR";
+          description = "Adornos finos se elaboraban de concha de mar, como apreciamos a través de estos fragmentos tallados y tres pendientes completos. Dos se encontraron en la tumba de la plataforma 11, de 500 a 750 d.C.";
+          audioFile = "Audio3.mp3";
           break;
         case 4:
-          title = "Imagen 4";
-          description = "Descripción de la imagen 4.";
+          title = "CUENTAS Y PENDIENTES DE PIEDRA VERDE";
+          description = "Pendientes y collares de piedra verde eran usadas en mayor cantidad por las familias de alto estatus. Aquí se muestran adornos de dos tumbas de familias nobles, de 500 a 750 años d.C.";
           audioFile = "audio4.mp3";
           break;
         case 5:
-          title = "Imagen 5";
-          description = "Descripción de la imagen 5.";
+          title = "FIGURILLAS Y SILBATO";
+          description = "Las figurillas moldeadas de cerámica nos muestran el tipo de tocados y vestimenta que se ocupaban.  Una de estas muestra una armadura de algodón, bastón y escudo. También se incluye un silbato en forma de pájaro.";
           audioFile = "audio5.mp3";
           break;
         case 6:
-          title = "Imagen 6";
-          description = "Descripción de la imagen 6.";
-          audioFile = "audio6.mp3";
+          title = "PIEZAS RECUPERADAS DE LA ZONA ARQUEOLÓGICA";
           break;
         case 7:
-          title = "Imagen 7";
-          description = "Descripción de la imagen 7.";
+          title = "TEMAZCALES";
+          description = "Hoy como en el pasado prehispánico el temazcal está asociado a ritos de limpieza y purificación del alma al pasar por etapas de crisis de la vida, como el nacimiento de un hijo. Hasta hace muy poco las mujeres zapotecas solían entrar al temazcal un tiempo después de dar a luz.";
           audioFile = "audio7.mp3";
           break;
         case 8:
-          title = "Imagen 8";
-          description = "Descripción de la imagen 8.";
-          audioFile = "audio8.mp3";
+          title = "PIEZAS RECUPERADAS DE LA ZONA ARQUEOLÓGICA";
           break;
         case 9:
-          title = "Imagen 9";
-          description = "Descripción de la imagen 9.";
-          audioFile = "audio9.mp3";
+          title = "PIEZAS RECUPERADAS DE LA ZONA ARQUEOLÓGICA";
           break;
        case 10:
-          title = "Imagen 10";
-          description = "Descripción de la imagen 10.";
-          audioFile = "audio10.mp3";
+          title = "PIEZAS RECUPERADAS DE LA ZONA ARQUEOLÓGICA";
           break;
        case 11:
-          title = "Imagen 11";
-          description = "Descripción de la imagen 11.";
-          audioFile = "audio11.mp3";
+          title = "PIEZAS RECUPERADAS DE LA ZONA ARQUEOLÓGICA";
           break;
        case 12:
-          title = "Imagen 12";
-          description = "Descripción de la imagen 12.";
-          audioFile = "audio12.mp3";
+          title = "PIEZAS RECUPERADAS DE LA ZONA ARQUEOLÓGICA";
           break;
         case 13:
-          title = "Imagen 13";
-          description = "Descripción de la imagen 13.";
-          audioFile = "audio13.mp3";
+          title = "PIEZAS RECUPERADAS DE LA ZONA ARQUEOLÓGICA";
           break;
         case 14:
-          title = "Imagen 14";
-          description = "Descripción de la imagen 14.";
-          audioFile = "audio14.mp3";
+          title = "PIEZAS RECUPERADAS DE LA ZONA ARQUEOLÓGICA";
           break;
       }
       $("#popup-title").text(title);
